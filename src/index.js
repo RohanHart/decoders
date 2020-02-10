@@ -1,5 +1,8 @@
 // @flow strict
 
+// work around a polyfill usage that babel doesn't detect
+import "core-js/modules/es.string.repeat";
+
 /**
  * Elm-like JSON decoders, for use with Flow.
  * See http://elmplayground.com/decoding-json-in-elm-1 for an introduction.
