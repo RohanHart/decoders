@@ -2,6 +2,7 @@
 
 // work around a polyfill usage that babel doesn't detect
 import "core-js/modules/es.string.repeat";
+import "core-js/modules/es.object.entries";
 
 /**
  * Elm-like JSON decoders, for use with Flow.
